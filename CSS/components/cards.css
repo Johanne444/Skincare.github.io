@@ -1,0 +1,33 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    max-width: 300px;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h4 {
+    color: #ff69b4;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    margin-top: 10px;
+    text-align: center;
+  }
